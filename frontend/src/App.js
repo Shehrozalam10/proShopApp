@@ -1,9 +1,21 @@
-import React from 'react'
-
+// import React from "react";
+import { Container } from "react-bootstrap";
+import { Outlet } from "react-router-dom";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+// import HomeScreen from "./screens/HomeScreen";
 const App = () => {
   return (
-    <p>Welcome To Proshop</p>
-  )
-}
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>
+          <Outlet />
+        </Container>
+      </main>
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;

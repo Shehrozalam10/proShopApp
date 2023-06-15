@@ -1,0 +1,38 @@
+const products=[{
+    _id:'1',
+    name:'Airpods',
+    image:'/images/airpods.jpg',
+    description:'Airpods is a very good',
+    brand:'Air',
+    category:'Air',
+    price:10,
+    countInStock:10,
+    rating:4.5,
+    numReview:12,
+},
+{
+    _id:'2',
+    name:'Headset',
+    image:'/images/mouse.jpg',
+    description:'Airpods is a very good',
+    brand:'Air',
+    category:'Air',
+    price:10,
+    countInStock:10,
+    rating:4.5,
+    numReview:12,
+},
+{
+    _id:'3',
+    name:'Headset',
+    image:'/images/phone.jpg',
+    description:'Airpods is a very good',
+    brand:'Air',
+    category:'Air',
+    price:10,
+    countInStock:10,
+    rating:4.5,
+    numReview:12,
+}
+]
+export default products
